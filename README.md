@@ -67,7 +67,7 @@ docker-compose up -d
   ทำการเข้า service backend project
 ```bash
 # open terminal in VS code use Git bash or Ubuntu(WSL) ==> if you use windows you need to use Ubuntu or Git Bash for run command
-cd backend/apiservice
+cd backend\apiservice
 ```
 - Complie and Run
 ```bash
