@@ -48,7 +48,7 @@ cd database
 # PostgreSQL Environment Variables
 POSTGRES_DB=gymservice
 POSTGRES_USER=gymservice_user
-POSTGRES_PASSWORD=your_strong_password  # สามารถแก้ไขได้
+POSTGRES_PASSWORD=gymservice123  # สามารถแก้ไขได้
 POSTGRES_PORT=5432
 
 # pgAdmin Environment Variables
