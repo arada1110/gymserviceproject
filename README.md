@@ -80,7 +80,12 @@ go build
 ```bash
 # open terminal Ubuntu or Git bash
 cd backend\apiservice
-cloudflare tunnel --url http://0.0.0.0:8088
+
+# install cloudflared
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared.deb
+
+cloudflared tunnel --url http://0.0.0.0:8088
 ```
 
 - ทำการ set frontend
