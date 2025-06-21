@@ -67,7 +67,7 @@ docker-compose up -d
   ทำการเข้า service backend project
 ```bash
 # open terminal in VS code use Git bash or Ubuntu(WSL) ==> if you use windows you need to use Ubuntu or Git Bash for run command
-cd backend\apiservice
+cd backend/apiservice
 ```
 - Complie and Run
 ```bash
@@ -79,7 +79,7 @@ go build
 - จะใช้ Cloudflare Tunnel เพื่อให้ใช้บริการ server โดยไม่ต้องใช้ Public IP โดยจะใช้ Port 8088 ที่ทำการเปิด service API ในการเชื่อมต่อกับบริการของ cloudflare
 ```bash
 # open terminal Ubuntu or Git bash
-cd backend\apiservice
+cd backend/apiservice
 
 # install cloudflared
 curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
