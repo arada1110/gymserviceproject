@@ -19,7 +19,7 @@ const NavbarRegis = () => {
                     <div className="top-info ps-2">
                         <small className="me-3">
                             <FontAwesomeIcon icon={faUserFriends} className="me-2 text-secondary" />
-                            <Link to="/" className="text-white">Notepads</Link>
+                            <Link to="/home" className="text-white">Notepads</Link>
                         </small>
                         
                     </div>
