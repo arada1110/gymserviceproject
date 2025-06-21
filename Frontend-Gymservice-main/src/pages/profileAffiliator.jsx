@@ -17,7 +17,10 @@ const Profile = () => {
         click_timestamp: new Date().toISOString(),
       };
 
-      await axios.post("https://armstrong-resort-cooperation-precisely.trycloudflare.com/api/clicklog", clickLog);
+      await axios.post(
+        "https://origins-plaintiff-beneficial-philosophy.trycloudflare.com/api/clicklog",
+        clickLog
+      );
 
       window.open(classItem.class_url, "_blank");
       console.log(clickLog);
@@ -52,12 +55,13 @@ const Profile = () => {
             <Link to="/request" className="btn btn-primary text-white">
               Add affiliate products
             </Link>
-            <Link to="/requestExternal" className="btn btn-secondary text-white">
+            <Link
+              to="/requestExternal"
+              className="btn btn-secondary text-white"
+            >
               Request Affiliate Service
             </Link>
           </div>
-
-
         </div>
       </div>
 

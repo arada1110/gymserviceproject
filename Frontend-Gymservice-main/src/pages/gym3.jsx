@@ -26,12 +26,16 @@ const Gym3 = () => {
         }}
       >
         <div className="col-lg-7" style={{ marginTop: "30px" }}>
-      
-        <button className="back-button" onClick={goBack} style={{ marginBottom: "10px " }}>&#x2039;</button>
-     
-          <h2 >GET คลาสทั้งหมดของ Flex Yoga Studio</h2>
-          
-          <h4 style={{ marginTop: "15px" }}>คำอธิบาย</h4>          <p>
+          <button
+            className="back-button"
+            onClick={goBack}
+            style={{ marginBottom: "10px " }}
+          >
+            &#x2039;
+          </button>
+          <h2>GET คลาสทั้งหมดของ Flex Yoga Studio</h2>
+          <h4 style={{ marginTop: "15px" }}>คำอธิบาย</h4>{" "}
+          <p>
             Flex Yoga Studio เป็นคลาสออกกำลังกายที่ผสมผสานหลายศาสตร์
             เพื่อเสริมความแข็งแรง ยืดหยุ่น สมดุลของร่างกาย
             พร้อมช่วยลดความเครียดและผ่อนคลายจิตใจ
@@ -56,10 +60,9 @@ const Gym3 = () => {
           >
             <p style={{ margin: 0 }}>
               <span style={{ fontWeight: "bold", color: "green" }}>GET</span>{" "}
-              https://armstrong-resort-cooperation-precisely.trycloudflare.com/gymclass/3
+              https://origins-plaintiff-beneficial-philosophy.trycloudflare.com/gymclass/3
             </p>
           </div>
-
           <h5>Data Dictionary</h5>
           <table className="table">
             <thead>
@@ -108,7 +111,6 @@ const Gym3 = () => {
               </tr>
             </tbody>
           </table>
-
           <h5>Request parameters</h5>
           <table className="table">
             <thead>
@@ -131,7 +133,6 @@ const Gym3 = () => {
               </tr>
             </tbody>
           </table>
-
           <h5 style={{ marginTop: "20px" }}>Response: 200 OK</h5>
           <div
             style={{

@@ -14,16 +14,19 @@ export default function RequestAPI() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.get(`https://armstrong-resort-cooperation-precisely.trycloudflare.com/gymclass/${gymId}`, {
-        headers: {
-          Authorization: apiKey,
-        },
-        params: {
-          search: search,
-          sort: sort,
-          order: "asc",
-        },
-      });
+      const res = await axios.get(
+        `https://origins-plaintiff-beneficial-philosophy.trycloudflare.com/gymclass/${gymId}`,
+        {
+          headers: {
+            Authorization: apiKey,
+          },
+          params: {
+            search: search,
+            sort: sort,
+            order: "asc",
+          },
+        }
+      );
       console.log(res.data);
       navigate("/Affiliator", { state: { classes: res.data } });
     } catch (err) {

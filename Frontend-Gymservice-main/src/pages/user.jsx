@@ -15,7 +15,8 @@ import "./goback.css";
 import { useNavigate, Link } from "react-router-dom";
 import Footer from "../component/footer";
 
-const affUrl = "https://armstrong-resort-cooperation-precisely.trycloudflare.com/api/affiliator";
+const affUrl =
+  "https://origins-plaintiff-beneficial-philosophy.trycloudflare.com/api/affiliator";
 
 const User = () => {
   const [isHidden, setIsHidden] = useState(true);

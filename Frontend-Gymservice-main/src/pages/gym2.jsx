@@ -60,7 +60,7 @@ const Gym2 = () => {
           >
             <p style={{ margin: 0 }}>
               <span style={{ fontWeight: "bold", color: "green" }}>GET</span>{" "}
-              https://armstrong-resort-cooperation-precisely.trycloudflare.com/gymclass/2
+              https://origins-plaintiff-beneficial-philosophy.trycloudflare.com/gymclass/2
             </p>
           </div>
 
