@@ -79,7 +79,7 @@ go build
 - จะใช้ Cloudflare Tunnel เพื่อให้ใช้บริการ server โดยไม่ต้องใช้ Public IP โดยจะใช้ Port 8088 ที่ทำการเปิด service API ในการเชื่อมต่อกับบริการของ cloudflare
 ```bash
 # open terminal Ubuntu or Git bash
-cd backend/apiservice
+cd backend\apiservice
 cloudflare tunnel --url http://0.0.0.0:8088
 ```
 
