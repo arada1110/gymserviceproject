@@ -105,6 +105,8 @@ cloudflared tunnel --url http://0.0.0.0:8088
 
 - Run Server
 ```bash
+npm install
+
 npm start
 ```
 - จะเปิด localhost:3000 สำหรับ react
